@@ -1,0 +1,36 @@
+﻿{
+  "loading":0,
+  "elements":[
+    {
+      "type":"pie",
+      "tip":"#label#<br>#val#%",
+      "colours":[
+        "#009933",
+        "#FF6600",
+        "#0099FF",
+        "#990000",
+        "#660099",
+        "#228888",
+        "#FF66FF",
+        "#882288",
+        "#002222",
+        "#002222"
+      ],
+      "alpha":"0.8",
+      "start-angle":"90",
+      "gradient-fill":"true",
+      "glass":"true",
+      "no-labe-ls":"true",
+      "animate":[
+        {
+          "type":"fade"
+        },
+        {
+          "type":"bounce",
+          "distance":10
+        }
+      ],
+      "values":[]
+    }
+  ]
+}
