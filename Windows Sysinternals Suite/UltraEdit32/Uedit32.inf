@@ -1,0 +1,13 @@
+[Version]
+Signature="$CHICAGO$"
+Provider=GREENDOWN.CN,2006
+
+[DefaultInstall]
+AddReg=Ultraedit_AddReg
+
+[Ultraedit_AddReg]
+hkcr,"*\shellex\ContextMenuHandlers\UltraEdit-32",,,"{b5eedee0-c06e-11cf-8c56-444553540000}"
+hkcr,"CLSID\{b5eedee0-c06e-11cf-8c56-444553540000}\InProcServer32","ThreadingModel",,"Apartment"
+hkcr,"CLSID\{b5eedee0-c06e-11cf-8c56-444553540000}\InProcServer32",,,"%01%\ue32ctmn.dll"
+
+[Strings]
